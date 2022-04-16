@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <title>Cartoon Movies</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+    <!--Animate CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Cartoon Movies</title> 
 </head>
 <style type="text/css">
     body {
@@ -19,16 +22,39 @@
         font-family: 'Fredoka One', cursive;
         font-size: 8rem;
         text-align: center;
+       
     }
-    div{
-        text-align: center;
+    h1:hover {
+        animation: bounce;
+        animation-duration: 2s;
+        color: rgb(109, 9, 9);
+    
+    }
+    div {
+        position: relative;
+    }
+    .tv {
+        position: absolute; left: 30%; top: 5px;
+        animation: rubberBand;
+        animation-duration: 4s;
+        
+    }
+    .play {
+        position: absolute; left: 41%; top: 97px;
+        height: 200px;
+       
+    }
+    .play:hover {
+        animation: heartBeat;
+        animation-duration: 2s;  
     }
 </style>
 
 <body>
     <h1>Cartoon Movies</h1>
     <div>
-        <img src="image/TV.png">
+        <img src="image/TV.png" class="tv">
+        <img src="image/Play.png" class="play">
     </div>
 
 
