@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LuzSanchez23/Cartoon_Movies/issues"
   },
-  "homepage": "https://github.com/LuzSanchez23/Cartoon_Movies#readme"
+  "homepage": "https://github.com/LuzSanchez23/Cartoon_Movies#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
